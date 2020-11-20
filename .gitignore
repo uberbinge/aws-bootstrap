@@ -6,6 +6,18 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+#idea
+*.iml
+# in .idea folder
+# - exclude everyting
+/.idea/*
+
+# - except
+!/.idea/codeStyles/
+
+# macos junk files
+.DS_Store
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
